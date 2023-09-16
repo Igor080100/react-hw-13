@@ -24,8 +24,8 @@ interface IState {
 interface IActionSuccess {
    type: typeof RESPONSE_SUCCESS;
    data: {
-      users: User[];
-      posts: Post[];
+      users: Array<User>;
+      posts: Array<Post>;
    };
 }
 
