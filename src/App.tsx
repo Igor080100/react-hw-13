@@ -1,18 +1,16 @@
 import React from 'react';
 
 import './App.css';
-import CommentsLoader from './components/CommentsLoader/CommentsLoader';
-import PostLoader from './components/PostLoader/PostLoader';
-import UserLoader from './components/UserLoader/UserLoader';
+
+import PostsUsers from './components/PostsUsers/PostsUsers';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <UserLoader />
-      <PostLoader />
-      <CommentsLoader />
+      <PostsUsers />
     </div>
   );
 }

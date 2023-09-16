@@ -1,0 +1,38 @@
+{
+   "users": [
+      {
+         "id": 1,
+         "name": "Ivan Ivanov"
+      },
+      {
+         "id": 2,
+         "name": "Petr Petrov"
+      },
+      {
+         "id": 3,
+         "name": "Stepan Stepanov"
+      }
+   ],
+   "messages": [
+      {
+         "id": 1,
+         "body": "text message1",
+         "authorId": 1
+      },
+      {
+         "id": 2,
+         "body": "text message2",
+         "authorId": 2
+      },
+      {
+         "id": 3,
+         "body": "text message3",
+         "authorId": 1
+      },
+      {
+         "id": 4,
+         "body": "text message4",
+         "authorId": 3
+      }
+   ]
+}
